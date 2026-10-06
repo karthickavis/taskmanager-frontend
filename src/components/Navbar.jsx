@@ -92,7 +92,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="border-t border-(--border) md:hidden">
-          <div className="space-y-1 p-4">
+          <div className="space-y-1 p-4 z-20 absolute bg-(--card) w-[100%]">
 
             <Link
               to="/"

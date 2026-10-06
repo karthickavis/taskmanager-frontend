@@ -6,7 +6,7 @@ return(
     <div className="min-h-screen bg-(--background) text-(--foreground)">
       <Navbar />
 
-      <main>
+      <main className="p-2">
         <Outlet />
       </main>
     </div>
